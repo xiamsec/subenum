@@ -1,11 +1,3 @@
-Got it!  
-You want me to create a **ready-to-use `README.md`** file (in **English**) for your `subenum` project, based on everything I wrote above.  
-I'll make it clean, professional, and properly formatted — you can directly put it into your GitHub repo.
-
-Here’s the full `README.md` for your `subenum` folder:
-
----
-
 # SubEnum
 
 **SubEnum** is a fast and asynchronous subdomain enumeration tool.  
