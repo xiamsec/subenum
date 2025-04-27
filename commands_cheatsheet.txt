@@ -1,0 +1,10 @@
+# SubEnum Commands Cheat Sheet
+
+Command                                                     | Description
+------------------------------------------------------------|-----------------------------------------------------------
+python3 main.py -d example.com                             | Basic enumeration (public sources only)
+python3 main.py -d example.com -b subdomains.txt            | Add brute-force using `subdomains.txt`
+python3 main.py -d example.com -o alive_subs.txt            | Save alive subdomains to `alive_subs.txt`
+python3 main.py -d example.com --json alive_subs.json       | Save alive subdomains to `alive_subs.json`
+python3 main.py -d example.com -b subdomains.txt -o alive_subs.txt --json alive_subs.json | Public + brute-force + save TXT & JSON
+python3 main.py --help                                      | Show help message with usage and examples
